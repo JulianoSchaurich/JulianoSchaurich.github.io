@@ -1,0 +1,158 @@
+:root{
+    --preto: rgb(0, 0, 0);
+    --roxo: #8B2A8C;
+    --rosa: #F2059F;
+    --rosa2: #b40376;
+    --verde: rgb(64, 226, 137);
+    --azul: rgb(55, 17, 117);
+    --azul2: rgb(42, 16, 85);
+    font-family: Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.btn-rosa {
+    --bs-btn-color: #000;
+    --bs-btn-bg: var(--rosa);
+    --bs-btn-border-color: var(--rosa);
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: var(--rosa2);
+    --bs-btn-hover-border-color: var(--rosa);
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: var(--rosa);
+    --bs-btn-active-border-color: var(--rosa);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: var(--rosa);
+    --bs-btn-disabled-border-color: var(--rosa);
+}
+.bg-preto{
+    background-color: var(--preto) !important;
+    color: #fff !important;
+}
+.bg-verde{
+    background-color: var(--verde) !important;
+    color: #000 !important;
+}
+.bg-roxo{
+    background-color: var(--roxo) !important;
+    color: #000 !important;
+}
+.bg-rosa{
+    background-color: var(--rosa) !important;
+    color: #000 !important;
+}
+.bg-azul{
+    background-color: var(--azul) !important;
+    color: #fff !important;
+}
+.text-verde{
+    color: var(--verde) !important;
+}
+
+/*SKILLS*/
+.img-skill{
+    width: 150px !important;
+}
+.container-skills{
+    max-width: 450px !important;
+}
+/*FIM SKILLS*/
+
+/*PROJETOS*/
+.bg-projeto{
+    background-color: var(--azul) !important;
+    color: #fff !important;
+}
+.btn-projeto{
+    --bs-btn-color: #000;
+    --bs-btn-bg: var(--rosa);
+    --bs-btn-border-color: var(--rosa);
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: var(--rosa2);
+    --bs-btn-hover-border-color: var(--rosa);
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: var(--rosa);
+    --bs-btn-active-border-color: var(--rosa);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: var(--rosa);
+    --bs-btn-disabled-border-color: var(--rosa);
+}
+/*FIM PROJETOS*/
+
+/*CONTATO*/
+.btn-contato {
+    --bs-btn-color: #000;
+    --bs-btn-bg: var(--rosa);
+    --bs-btn-border-color: var(--rosa);
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: var(--rosa2);
+    --bs-btn-hover-border-color: var(--rosa);
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: var(--rosa);
+    --bs-btn-active-border-color: var(--rosa);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: var(--rosa);
+    --bs-btn-disabled-border-color: var(--rosa);
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -40px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+/*FIM CONTATO*/

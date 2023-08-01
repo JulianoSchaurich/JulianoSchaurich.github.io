@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juliano Schaurich</title>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body class="">
+    <nav class="navbar bg-verde sticky-top">
+      <div class="container-fluid d-flex flex-wrap justify-content-center align-items-center">   
+        <a class="navbar-brand" href="#">
+          <img src="images\cup-hot-fill.svg" alt="Xícara de Café" width="30" height="26" class="d-inline-block align-text-top">
+        </a>
+        <a class="navbar-brand fw-semibold fs-3" href="#skills">Skills</a>
+        <a class="navbar-brand fw-semibold fs-3" href="#projetos">Projetos</a>
+        <a class="navbar-brand fw-semibold fs-3" href="#contato">Contato</a>
+      </div>
+    </nav>
+  
+    <div class="bg-black bg-gradient text-light">
+      <section id="eu">
+        <div class="container-fluid text-center pt-5 pb-5" >
+          <div class="row row-cols-1 justify-content-center pt-5 pb-1">
+              <div class="col-6 col-md-2 col-sm-4">
+                  <img src="images/foto-perfil.png" class="img-thumbnail rounded-circle" alt="">
+              </div>
+              <div class="col align-self-end pt-5">
+                  <p class="fs-1">Olá, me chamo <span class="text-verde">Juliano</span></p>
+                  <p class="fs-3">Sou graduando em Analise e Desenvolvimento de Sistemas e Técnico em Informática.</p>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="skills">
+        <div class="container-fluid text-center text-light pt-3 pb-3">
+          <div class="row">
+              <div class="col">
+                <p class="fs-1">Skills</p>
+              </div>
+          </div>
+          
+          <div class="container-skills m-auto d-flex flex-wrap justify-content-center align-items-center pb-5">
+              <img src="images/java.svg" class="img-skill p-2" alt="Icone Java" title="Icone Java">
+              <img src="images/python.svg" class="img-skill p-2" alt="Icone Python" title="Icone Python">
+              <img src="images/arduino.png" class="img-skill p-2" alt="Icone Arduino" title="Icone Arduino">
+              <img src="images/bootstrap.png" class="img-skill p-2" alt="Icone Bootstrap" title="Icone Bootstrap">
+              <img src="images/html.svg" class="img-skill p-2" alt="Icone HTML" title="Icone HTML">
+              <img src="images/css.svg" class="img-skill p-2" alt="Icone CSS" title="Icone CSS">
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <div class="container-fluid text-center pt-3 pb-3 text-light">
+          <div class="row">
+            <div class="col align-self-end">
+                <p class="fs-1">Projetos</p>
+                <p class="fs-3">Conheça alguns dos meus projetos do <span class="text-verde">GitHub</span></p>
+            </div>   
+          </div>
+          
+          <div class="row justify-content-center m-5 pb-5">
+              <div class="col-sm-2 mb-1 mb-sm-0">
+                  <div class="card bg-projeto mt-1">
+                      <div class="card-body">
+                          <h5 class="card-title">Gestão de Locação</h5>
+                          <p class="card-text">Implementação full-stack de um sistema.</p>
+                          <a href="https://github.com/JulianoSchaurich/Site_gestao_de_locacao" class="btn btn-projeto">Conhecer</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-2 mb-1 mb-sm-0">
+                  <div class="card bg-projeto mt-1">
+                  <div class="card-body">
+                      <h5 class="card-title">Portifólio</h5>
+                      <p class="card-text">Implementação full-stack de um site recursivo.</p>
+                      <a href="https://github.com/JulianoSchaurich/Portifolio_site_recursivo" class="btn btn-projeto">Conhecer</a>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-sm-2 mb-1 mb-sm-0">
+                  <div class="card bg-projeto mt-1">
+                  <div class="card-body">
+                      <h5 class="card-title">Blog</h5>
+                      <p class="card-text">Implementação front-end de um site responsivo.</p>
+                      <a href="https://github.com/JulianoSchaurich/Blog_site_responsivo" class="btn btn-projeto">Conhecer</a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="contato">
+        <div class="contato container-fluid text-center bg-preto pt-3 pb-3">
+            <div class="row">
+                <div class="col">
+                    <p class="fs-1">Contato</p>
+                </div>
+            </div>
+
+            <div class="row m-4">
+                <div class="col popup">
+                    <button type="button" onclick="copiarEmail()" id="botao-email" class="btn btn-contato">schaurich.jmsj@gmail.com</button>
+                    <span class="popuptext" id="myPopup">Copiado!</span>
+                </div>
+            </div>
+
+            <div class="row pt-4 pb-1">
+                <div class="col">
+                    <a href="https://github.com/JulianoSchaurich" class="m-1">
+                        <img src="images\github.svg" alt="Github" style="width: 35px;">
+                    </a>
+                                <a href="https://www.linkedin.com/in/juliano-schaurich-24b98519a/" class="m-1">
+                        <img src="images\linkedin.svg"  style="width: 35px;"/>
+                    </a>
+                    <a href="https://www.instagram.com/schaurich.juliano/" class="m-1">
+                        <img src="images\instagram.svg" style="width: 35px;"/>
+                    </a>
+                    <a href="https://twitter.com/j_schaurich" class="m-1">
+                        <img src="images\twitter.svg"  style="width: 35px;"/>
+                    </a>
+                    <a href="https://open.spotify.com/user/juliano.schaurich" class="m-1">
+                        <img src="images\spotify.svg" style="width: 35px;"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid bg-preto text-center pt-5 pb-2">
+        <p>©Juliano Marcelo Schaurich Júnior</p>
+    </footer>
+
+<script src = "js\bootstrap.js"></script>
+<script src = "js\script.js"></script>
+</body>
+</html>
